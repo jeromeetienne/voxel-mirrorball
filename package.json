@@ -1,9 +1,9 @@
 {
-  "name": "voxel-hello-world",
+  "name": "voxel-mirrorball",
   "version": "0.0.5",
   "repository": {
     "type":"git",
-    "url": "git@github.com:maxogden/voxel-hello-world.git"
+    "url": "git@github.com:jeromeetienne/voxel-mirrorball.git"
   },
   "dependencies": {
     "voxel": "0.3.1",
