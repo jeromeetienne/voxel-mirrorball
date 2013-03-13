@@ -38,7 +38,7 @@ module.exports = function(opts) {
 	// create the player from a minecraft skin file and tell the
 	// game to use it as the main player
 	var createPlayer = player(game)
-	var substack = createPlayer('maxogden.png')
+	var substack = createPlayer('images/maxogden.png')
 	substack.possess()
 	substack.yaw.position.set(2, 14, 4)
 
@@ -79,8 +79,8 @@ module.exports = function(opts) {
 	})
 
 
-	var world	= require('./voxel-tquery.js').initWorld(game);
-	var mirrorBall	= require('./voxel-mirrorball.js').create();
+	var world	= require('../voxel-tquery.js').initWorld(game);
+	var mirrorBall	= require('../voxel-mirrorball.js').create();
 	
 	mirrorBall.addTo(world)
 		.position(2,2.1,1)

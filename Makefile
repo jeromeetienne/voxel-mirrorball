@@ -1,10 +1,7 @@
 # makefile to automatize simple operations
 
 server:
-	python -m SimpleHTTPServer
-
-build:
-	./node_modules/browserify/bin/cmd.js index.js > bundle.js
+	npm start
 
 deploy:
 	# assume there is something to commit
