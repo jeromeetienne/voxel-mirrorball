@@ -21,6 +21,9 @@ exports.create	= function(opts){
 			.color(0xFFD700)
 			.back()
 
+// TODO likely a good idea to put a LOD here
+// like thus it is render only when visible close
+
 	var tRenderer	= opts.world.tRenderer()
 	var tScene	= opts.world.tScene()
 	var callback	= opts.world.loop().hook(function(){
