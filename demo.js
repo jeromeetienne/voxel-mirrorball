@@ -1,6 +1,3 @@
-// __dirname is the current working directory, we pass it in to
-// the textures module and receive back the path from here to where
-// the textures are located
 var textures	= require('painterly-textures')(__dirname)
 var game	= require('voxel-hello-world')({
 	texturePath	: textures,
