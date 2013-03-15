@@ -18,7 +18,7 @@ mirrorBall.addTo(world)
 	.scaleBy(3)
 
 var object	= tQuery.createTorusKnot().addTo(world)
-	.positionY(4)
+	.positionY(3)
 world.loop().hook(function(delta, now){
 	var angle	= 0.2 * now * Math.PI * 2;
 	object	.positionX(Math.cos(angle) * 2 + 2)
